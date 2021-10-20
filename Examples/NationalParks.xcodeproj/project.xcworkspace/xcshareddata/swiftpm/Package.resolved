@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "PageView",
+        "repositoryURL": "https://github.com/shaotaoliu/SwiftUI.Package.PageView",
+        "state": {
+          "branch": "main",
+          "revision": "461af3ae967ff45e0c7cdec2e1e17eed766eaeff",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
