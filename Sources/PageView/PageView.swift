@@ -3,7 +3,7 @@ import SwiftUI
 public struct PageView<Page: View>: View {
     
     public var pages: [Page]
-    public @Binding var currentPage: Int
+    @Binding public var currentPage: Int
 
     public var body: some View {
         ZStack(alignment: .bottomTrailing) {
