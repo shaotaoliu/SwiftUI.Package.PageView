@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct PageView<Page: View>: View {
+public struct PageView<Page: View>: View {
     
     var pages: [Page]
     @Binding var currentPage: Int
