@@ -4,6 +4,11 @@ public struct PageView<Page: View>: View {
     
     public var pages: [Page]
     @Binding public var currentPage: Int
+    
+    public init(pages: [Page], currentPage: Binding<Int>) {
+        self.pages = pages
+        self._currentPage = currentPage
+    }
 
     public var body: some View {
         ZStack(alignment: .bottomTrailing) {
