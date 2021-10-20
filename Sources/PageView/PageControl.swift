@@ -29,8 +29,7 @@ struct PageControl: UIViewRepresentable {
             self.control = control
         }
 
-        @objc
-        func updateCurrentPage(sender: UIPageControl) {
+        @objc func updateCurrentPage(sender: UIPageControl) {
             control.currentPage = sender.currentPage
         }
     }
